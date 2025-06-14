@@ -34,12 +34,21 @@ Algorithms and Structural Foundations - part 3/8
 
 ---
 transition: slide-left
-layout: center
-class: text-center
 ---
 
-# In ASCII, the capital `A` has value 65.  Yet in C, I can set an int variable to 65
-How does the computer know how to interpret `01000001`?
+# Review Recursion Exercises
+Write recursive functions for the following problems. 
+
+1. Write a function that computes: n to the exponent x
+   - ex: `power(2, 3)` // should output 8
+2. Calculate the sum of natural number up to n
+   - ex: `sum(5) // should output 15`
+3. Write a function that computes the nth Fibonacci number (1, 1, 2, 3, 5, 8, ...)
+   - ex: `fibonacci(5) // should output 5`
+4. Write a function that reverses a string
+   - ex: `reverse("hello") // should output "olleh"`
+5. Write a function that checks if a string is a palindrome (reads the same forwards and backwards)
+   - ex: `isPalindrome("racecar") // should output true`
 
 ---
 transition: slide-left
