@@ -54,6 +54,42 @@ Write recursive functions for the following problems.
 transition: slide-left
 ---
 
+# Binary Sort using Recursion Flowchart
+
+
+<img src="/assets/binflow.png" width="800">
+
+
+---
+transition: slide-left
+---
+
+# Binary Sort using Recursion (pg.2)
+
+- if arr.length is 0 return false
+- if midpoint is n return true
+- if n < middle index then search left side
+- if n > middle index then search right side
+```js
+function binarySearch(arr, n, left = 0, right = arr.length - 1) {
+    if (left > right) return -1;
+
+    const mid = Math.floor((left + right) / 2);
+
+    if (arr[mid] === n) return mid;
+    else if (n < arr[mid]) {
+        return binarySearch(arr, n, left, mid - 1); // Search left half
+    } else {
+        return binarySearch(arr, n, mid + 1, right); // Search right half
+    }
+}
+```
+
+---
+transition: slide-left
+---
+
+
 # Memoizing using a basic cache for Fibonnaci
 
 ---
@@ -68,13 +104,7 @@ transition: slide-left
 
 # Memoizing using a closure for Fibonnaci
 
----
-transition: slide-left
----
 
-# Binary Sort using Recursion
-
-- show binary sort
 
 
 
