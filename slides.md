@@ -135,11 +135,25 @@ transition: slide-left
 
 # Stacks
 
+- an ordered collection of items
+- Fast insert and removal `O(1)`
+- LIFO (Last In First Out)
+- limited access to data via `pop() push()`
+
+<img src="/assets/stack.webp" width="500" style="background-color: #fff; display: block; margin: 0 auto;">
+
 ---
 transition: slide-left
 ---
 
 # Queues
+
+- an ordered collection of items
+- Fast insert and removal `O(1)`
+- FIFO (First In First Out)
+- limited access to data via `dequeue() enqueue()`
+
+<img src="/assets/queue.png" width="500" style="background-color: #fff; display: block; margin: 0 auto;">
 
 ---
 transition: slide-left
