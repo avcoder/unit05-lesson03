@@ -106,8 +106,6 @@ transition: slide-left
 
 
 
-
-
 ---
 layout: image-right
 transition: slide-left
@@ -130,6 +128,18 @@ class: text-left
 - 🧪 [Enter anonymous lab questions](https://docs.google.com/forms/d/e/1FAIpQLSevvGARdHQikso-uLqFCO481MABKE5HofuSrlzEPMNQ2ZLykw/viewform?usp=dialog)
 - ℹ️ [Course feedback survey](https://circuitstream.typeform.com/to/ZoyYk7px#course_id=SoftwareAN&instructor=9514)
 
+
+---
+transition: slide-left
+---
+
+# Stacks
+
+---
+transition: slide-left
+---
+
+# Queues
 
 ---
 transition: slide-left
