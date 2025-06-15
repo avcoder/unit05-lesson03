@@ -20,8 +20,8 @@ mdc: true
 Algorithms and Structural Foundations - part 3/8
 
 - [ ] Recursion pt.2
-- [ ] Stacks
-- [ ] Queues
+- [ ] Caching & Closures
+- [ ] Stacks & Queues
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
@@ -54,9 +54,29 @@ Write recursive functions for the following problems.
 transition: slide-left
 ---
 
-# Recap (pg.1)
+# Memoizing using a basic cache for Fibonnaci
 
-asdf
+---
+transition: slide-left
+---
+
+# Intro to Closures
+
+---
+transition: slide-left
+---
+
+# Memoizing using a closure for Fibonnaci
+
+---
+transition: slide-left
+---
+
+# Binary Sort using Recursion
+
+- show binary sort
+
+
 
 ---
 layout: image-right
