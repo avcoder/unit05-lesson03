@@ -61,20 +61,17 @@ asdf
 ---
 layout: image-right
 transition: slide-left
-image: /assets/addy.png
-backgroundSize: 400px 300px
+image: /assets/recursion.png
+backgroundSize: 400px 400px
 class: text-left
 ---
 
 # 10 minute break
 
 🍦 Cool Tips, Trends and Resources:
-- 🖇️ [Linked Lists](https://www.geeksforgeeks.org/linked-list-data-structure/)
-- 👩‍💻 [NeetCode](https://www.freecodecamp.org/news/prepare-for-technical-interviews-using-neetcode-150)
-- ➿ [Recursion](https://dev.to/codeguppy/recursion-in-javascript-practical-exercises-41hg)
-- [Visual Go](https://visualgo.net/en)
-- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [napkin ai](https://www.napkin.ai/)
+- 🗼 [Tower of Hanoi](https://www.youtube.com/watch?v=rf6uf3jNjbo)
+- 👀 [Visual Go](https://visualgo.net/en)
+- 💫 [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 <br>
 <hr>
