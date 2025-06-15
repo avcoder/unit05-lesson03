@@ -57,7 +57,7 @@ transition: slide-left
 # Binary Sort using Recursion Flowchart
 
 
-<img src="/assets/binflow.png" width="800">
+<img src="/assets/binflow.png" width="750">
 
 
 ---
