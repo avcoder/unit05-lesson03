@@ -142,6 +142,76 @@ transition: slide-left
 
 <img src="/assets/stack.webp" width="500" style="background-color: #fff; display: block; margin: 0 auto;">
 
+
+---
+transition: slide-left
+---
+
+# Stack: Methods
+
+| Method                 | Description                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `push(item)` | Adds an item to the top of the stack.                                                                                            |
+| `pop()`      | Removes and returns the item at the top of the stack. Often throws an error or returns `null`/`undefined` if the stack is empty. |
+| `isEmpty()`            | Returns `true` if the stack has no elements, `false` otherwise.                                                   |
+| `peek()`     | Returns the item at the top of the stack **without** removing it. Useful for checking the next item to be popped. |
+| `size()`               | Returns the number of elements in the stack.                                                                      |
+| `print()` (optional)   | Displays the contents of the stack, often for debugging                               |
+
+
+---
+transition: slide-left
+---
+
+# How would you use Linked Lists to build a Stack? (pg.1)
+1. Create a Node class
+  ```md
+  Class Node:
+      value
+      next
+  ```
+2. Create a Stack class
+  ```md
+  Class Stack:
+      top = null   // Points to the top node
+      size = 0     // Optional: tracks number of elements
+  ```
+3. Push
+  ```md
+  Method push(value):
+      Create a new node with the given value
+      Set new node's next to current top
+      Update top to be the new node
+      Increment size
+  ```
+
+---
+transition: slide-left
+---
+
+# How would you use Linked Lists to build a Stack? (pg.2)
+
+4.
+  ```md
+  Method pop():
+      If stack is empty (top is null), return error or null
+      Store value from top node
+      Set top to top.next (removes the first node)
+      Decrement size
+      Return stored value
+  ```
+5. 
+  ```md
+  Method peek():
+      If stack is empty, return error or null
+      Return top.value
+  ```
+6.
+  ```md
+  Method size():
+      Return the size counter
+  ```
+
 ---
 transition: slide-left
 ---
@@ -154,6 +224,27 @@ transition: slide-left
 - limited access to data via `dequeue() enqueue()`
 
 <img src="/assets/queue.png" width="500" style="background-color: #fff; display: block; margin: 0 auto;">
+
+---
+transition: slide-left
+---
+
+# Queue: Methods
+
+| Method          | Description                                                 |
+| --------------- | ----------------------------------------------------------- |
+| `enqueue(item)` | Adds an item to the **back/rear** of the queue.             |
+| `dequeue()`     | Removes and returns the item at the **front** of the queue. |
+| `isEmpty()`            | Returns `true` if the queue has no elements.             |
+| `peek()`   | Returns the item at the **front** without removing it.   |
+| `size()`               | Returns the number of elements in the queue.             |
+| `print()` (optional) | Converts the queue to an array for inspection/debugging. |
+
+---
+transition: slide-left
+---
+
+# How would you use Linked Lists to build a Queue?
 
 ---
 transition: slide-left
