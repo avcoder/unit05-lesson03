@@ -52,6 +52,14 @@ Write recursive functions for the following problems.
 
 ---
 transition: slide-left
+layout: center
+---
+
+# Could there be a way to optimize our functions?
+ex: more performant not to re-calculate fibonnaci(5) repeatedly if previously calculated/memorized
+
+---
+transition: slide-left
 ---
 
 # Binary Sort using Recursion Flowchart
@@ -84,6 +92,36 @@ function binarySearch(arr, n, left = 0, right = arr.length - 1) {
     }
 }
 ```
+
+---
+transition: slide-left
+layout: center
+---
+
+# What is a Cache?
+A cache is a storage layer that temporarily holds data to serve future requests faster.
+
+---
+transition: slide-left
+layout: center
+---
+
+# What is a Memoization?
+A specific kind of caching used in functions to store results of expensive computations.
+
+---
+transition: slide-left
+---
+
+# Cache vs Memoization
+
+| Feature               | **Cache**                                             | **Memoization**                                        |
+| --------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| **Definition**        | A general-purpose storage for reused data             | A specialized form of caching for function results     |
+| **Purpose**           | Speeds up access to data or resources                 | Speeds up repeated function calls with the same inputs |
+| **Scope**             | Broad: system-level, application-level, network, etc. | Narrow: typically used in pure functions               |
+| **Use Case Examples** | Web page caching, database query caching, CPU cache   | Recursive functions like `fibonacci(n)`                |
+
 
 ---
 transition: slide-left
