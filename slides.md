@@ -98,6 +98,15 @@ transition: slide-left
 layout: center
 ---
 
+# Could there be a way to optimize our functions?
+ex: more performant not to re-calculate fibonnaci(5) repeatedly if previously calculated/memorized
+
+
+---
+transition: slide-left
+layout: center
+---
+
 # What is a Cache?
 A cache is a storage layer that temporarily holds data to serve future requests faster.
 
