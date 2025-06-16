@@ -163,7 +163,7 @@ transition: slide-left
 transition: slide-left
 ---
 
-# How would you use Linked Lists to build a Stack? (pg.1)
+# Pseudocode - Stack via Linked List (pg.1)
 1. Create a Node class
   ```md
   Class Node:
@@ -189,9 +189,9 @@ transition: slide-left
 transition: slide-left
 ---
 
-# How would you use Linked Lists to build a Stack? (pg.2)
+# Pseudocode - Stack via Linked List (pg.2)
 
-4.
+4. Pop
   ```md
   Method pop():
       If stack is empty (top is null), return error or null
@@ -200,13 +200,13 @@ transition: slide-left
       Decrement size
       Return stored value
   ```
-5. 
+5. Peek
   ```md
   Method peek():
       If stack is empty, return error or null
       Return top.value
   ```
-6.
+6. Size
   ```md
   Method size():
       Return the size counter
@@ -244,7 +244,61 @@ transition: slide-left
 transition: slide-left
 ---
 
-# How would you use Linked Lists to build a Queue?
+# Pseudocode - Queue via Linked List (pg.1)
+1. Create a Node class
+  ```md
+  Class Node:
+    value
+    next
+  ```
+2. Create a Queue class
+  ```md
+  Class Queue:
+    front = null
+    rear = null
+    size = 0
+  ```
+3. Enqueue
+  ```md
+  Method enqueue(value):
+    Create a new node with the given value
+    If the queue is empty (front is null):
+        Set both front and rear to the new node
+    Else:
+        Set rear.next to the new node
+        Update rear to point to the new node
+    Increment size
+  ```
+
+---
+transition: slide-left
+---
+
+# Pseudocode - Queue via Linked List (pg.2)
+
+4. Dequeue
+  ```md
+  Method dequeue():
+    If the queue is empty (front is null), return error or null
+    Store the value from the front node
+    Set front to front.next
+    If front becomes null (queue is now empty):
+        Also set rear to null
+    Decrement size
+    Return stored value
+  ```
+5. Peek
+  ```md
+  Method peek():
+    If the queue is empty, return error or null
+    Return front.value
+  ```
+6. Size
+  ```md
+  Method size():
+    Return the size counter
+  ```
+
 
 ---
 transition: slide-left
