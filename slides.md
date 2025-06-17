@@ -144,6 +144,26 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Memoization example
+
+```js
+const factorial = (n) => {
+  // pretend we have code here to calculate n * (n-1) * (n-2) ... * (1)
+  return factorial
+}
+
+// here we ask to run factorial on input 35
+factorial(35) 
+
+// then wouldn't it be cool if code remembered result of above factorial(35)?
+// such that factorial(36) = factorial(35) * 36
+factorial(36) 
+```
+
+---
+transition: slide-left
+---
+
 # Intro to Closures
 A closure is a function that remembers the variables from its outer (enclosing) function scope, even after the outer function has finished executing.
 
