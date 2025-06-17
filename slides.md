@@ -162,7 +162,6 @@ transition: slide-left
 ```js
 const factorial = (n) => {
   // pretend we have code here to calculate n * (n-1) * (n-2) ... * (1)
-  return factorial
 }
 
 // here we ask to run factorial on input 35
