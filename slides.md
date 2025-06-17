@@ -239,6 +239,11 @@ transition: slide-left
 | Subsequent lookup           | O(1) |
 
 
+- Memoization avoids recomputing the same values, but:
+   - You still need to compute each value from fib(0) up to fib(n) at least once.
+   - The first time fib(n) is called, it recursively computes fib(n-1) and fib(n-2) — but after those are cached, they're O(1) to retrieve.
+
+
 
 ---
 layout: image-right
