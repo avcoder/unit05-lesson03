@@ -139,6 +139,26 @@ transition: slide-left
 ---
 
 # Intro to Closures
+A closure is a function that remembers the variables from its outer (enclosing) function scope, even after the outer function has finished executing.
+
+```js
+function outerFunction() {
+  let outerVariable = 'I am from outer scope';
+
+  function innerFunction() {
+    console.log(outerVariable); // <-- has access to outerVariable
+  }
+
+  return innerFunction;
+}
+
+const myClosure = outerFunction(); // outerFunction has finished
+myClosure(); // Output: "I am from outer scope"
+```
+
+- outerFunction is called and returns innerFunction.
+- Even though outerFunction has finished executing, innerFunction still remembers outerVariable.
+- That’s a closure.
 
 ---
 transition: slide-left
