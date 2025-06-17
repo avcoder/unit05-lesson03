@@ -136,13 +136,6 @@ transition: slide-left
 transition: slide-left
 ---
 
-
-# Memoizing using a basic cache for Fibonnaci
-
----
-transition: slide-left
----
-
 # Intro to Closures
 
 ---
