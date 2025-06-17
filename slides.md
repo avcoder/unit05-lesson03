@@ -144,7 +144,7 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Memoization example
+# Memoization Goal
 
 ```js
 const factorial = (n) => {
@@ -304,6 +304,24 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Stack Usage
+
+```js
+// Example usage:
+const stack = new Stack();
+stack.push(10);
+stack.push(20);
+stack.push(30);
+
+console.log(stack.peek());    // Output: 30
+console.log(stack.pop());     // Output: 30
+console.log(stack.getSize()); // Output: 2
+```
+
+---
+transition: slide-left
+---
+
 # Queues
 
 - an ordered collection of items
@@ -387,6 +405,22 @@ transition: slide-left
     Return the size counter
   ```
 
+---
+transition: slide-left
+---
+
+# Queue Usage
+
+```js
+const queue = new Queue();
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+
+console.log(queue.peek());    // Output: 1
+console.log(queue.dequeue()); // Output: 1
+console.log(queue.getSize()); // Output: 2
+```
 
 ---
 transition: slide-left
