@@ -190,7 +190,28 @@ myClosure(); // Output: "I am from outer scope"
 transition: slide-left
 ---
 
-# Memoizing using a closure for Fibonnaci
+# Memoizing using a closure for Fibonacci
+
+```js
+const fib = (function() {
+  const memo = {};
+
+  function fibonacci(n) {
+    if (n < 0) throw new Error("Fibonacci is not defined for negative numbers.");
+    if (n === 0) return 0;
+    if (n === 1) return 1;
+    
+    if (memo[n] !== undefined) {
+      return memo[n];
+    }
+
+    memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+    return memo[n];
+  }
+
+  return f;
+})();
+```
 
 
 
