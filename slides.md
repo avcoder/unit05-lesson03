@@ -311,12 +311,73 @@ transition: slide-left
       If stack is empty, return error or null
       Return top.value
   ```
-6. Size
+6. isEmpty
+  ```md
+  Method isEmpty():
+     Return if stack is empty
+  ```
+7. Size
   ```md
   Method size():
       Return the size counter
   ```
 
+---
+transition: slide-left
+---
+
+# Exercise: Let's build out a Stack using Linked List
+
+```js
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
+class Stack {
+  constructor() {
+    this.top = null;   // Points to the top of the stack
+    this.size = 0;     // Tracks the number of elements
+  }
+
+  push(value) { /* ?? */ }
+
+  pop() { /* ?? */ }
+
+  peek() { /* ?? */ }
+
+  isEmpty() { /* ?? */ }
+
+  getSize() { /* ?? */ }
+}
+```
+
+<!-- 
+- push
+   - const newNode = new Node(value)
+   - newNode.next = this.top
+   - this.top = newNode
+   - this.size++
+
+- pop
+- if (this.isEmpty()) { throw new Error("Stack underflow - The stack is empty") }
+   - const poppedValue = this.top.value
+   - this.top = this.top.next
+   - this.size--
+   - return poppedValue
+
+- peek
+   - if (this.isEmpty()) { return null }
+   - return this.top.value
+
+- isEmpty
+   - return this.top === null
+
+- size
+   - return this.size
+-->
 
 ---
 transition: slide-left
@@ -422,6 +483,62 @@ transition: slide-left
     Return the size counter
   ```
 
+---
+transition: slide-left
+---
+
+# Exercise: Build out a Queue using a Linked List
+
+```js
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
+class Queue {
+  constructor() {
+    this.front = null; // Points to the front (head) of the queue
+    this.rear = null;  // Points to the end (tail) of the queue
+    this.size = 0;
+  }
+
+  enqueue(value) { /* ?? */ }
+
+  dequeue() { /* ?? */ }
+
+  peek() { /* ?? */ }
+
+  isEmpty() { /* ?? */ }
+
+  getSize() { /* ?? */ }
+}
+```
+
+<!--
+- enqueue
+   - const newNode = new Node(value);
+   - if (this.isEmpty()) {
+      - this.front = this.rear = newNode;
+   - } else {
+      - this.rear.next = newNode;
+      - this.rear = newNode;
+   - }
+   - this.size++;
+
+- dequeue
+   - if (this.isEmpty()) {
+      - throw new Error("Queue underflow - The queue is empty");
+   - }
+   - const dequeuedValue = this.front.value;
+   - this.front = this.front.next;
+   - if (!this.front) {
+      - this.rear = null; // Queue is now empty
+   - }
+   - this.size--;
+   - return dequeuedValue;
+-->
 
 ---
 transition: slide-left
