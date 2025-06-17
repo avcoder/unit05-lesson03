@@ -20,7 +20,7 @@ mdc: true
 Algorithms and Structural Foundations - part 3/8
 
 - [ ] Recursion pt.2
-- [ ] Memoization, Caching & Closures
+- [ ] Memoization & Closures
 - [ ] Stacks & Queues
 
 <div class="abs-br m-6 text-xl">
