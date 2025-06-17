@@ -131,6 +131,8 @@ transition: slide-left
 | **Scope**             | Broad: system-level, application-level, network, etc. | Narrow: typically used in pure functions               |
 | **Use Case Examples** | Web page caching, database query caching, CPU cache   | Recursive functions like `fibonacci(n)`                |
 
+- see React hook [useCallback](https://react.dev/reference/react/useCallback)
+- see React hook [useMemo](https://react.dev/reference/react/useMemo)
 
 ---
 transition: slide-left
