@@ -164,11 +164,12 @@ const factorial = (n) => {
   // pretend we have code here to calculate n * (n-1) * (n-2) ... * (1)
 }
 
-// here we ask to run factorial on input 35
+// here we ask to run factorial on input 35 which it calculates
 factorial(35) 
 
-// then wouldn't it be cool if code remembered result of above factorial(35)?
-// such that factorial(36) = factorial(35) * 36
+// then wouldn't it be cool if factorial function remembered previous result of factorial(35)?
+// such that it wouldn't have to work as hard to calculate: factorial(36)
+// ex: factorial(35) * 36 means simply recalling what factorial(35) previously gave us
 factorial(36) 
 ```
 
