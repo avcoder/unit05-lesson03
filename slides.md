@@ -62,7 +62,7 @@ ex: more performant not to re-calculate fibonnaci(5) repeatedly if previously ca
 transition: slide-left
 ---
 
-# Binary Sort using Recursion Flowchart
+# Binary Search using Recursion Flowchart
 
 
 <img src="/assets/binflow.png" width="750">
@@ -72,7 +72,7 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Binary Sort using Recursion (pg.2)
+# Binary Search using Recursion (pg.2)
 
 - if arr.length is 0 return false
 - if midpoint is n return true
