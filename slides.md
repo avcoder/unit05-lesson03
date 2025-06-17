@@ -227,6 +227,17 @@ const fib = (function() {
 })();
 ```
 
+---
+transition: slide-left
+---
+
+# Big O for Recursive Fibonacci using Memoization
+
+| Operation                   | Time |
+| --------------------------- | ---- |
+| First-time compute `fib(n)` | O(n) |
+| Subsequent lookup           | O(1) |
+
 
 
 ---
