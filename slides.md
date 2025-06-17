@@ -105,6 +105,7 @@ transition: slide-left
 | **Average Case**        | O(log n)                  |
 | **Worst Case**          | O(log n)                  |
 
+- refer to [Big O cheatsheet](https://www.bigocheatsheet.com/)
 
 ---
 transition: slide-left
