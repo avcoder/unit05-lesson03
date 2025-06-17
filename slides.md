@@ -271,6 +271,23 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Big O for Stacks using Linked List
+
+| **Operation** | **Time Complexity** | **Explanation**                        |
+| ------------- | ------------------- | -------------------------------------- |
+| `push`        | O(1)                | Insert at the head of the list.        |
+| `pop`         | O(1)                | Remove from the head of the list.      |
+| `peek`        | O(1)                | Access the head without removing it.   |
+| `isEmpty`     | O(1)                | Check if head is `null`.               |
+| `size`        | O(1)\*              | Constant if a size counter is tracked. |
+
+*If you don't maintain a size counter, size would be O(n).
+
+
+---
+transition: slide-left
+---
+
 # Stack Usage
 
 ```js
@@ -427,6 +444,23 @@ transition: slide-left
 | `peek()`   | Returns the item at the **front** without removing it.   |
 | `size()`               | Returns the number of elements in the queue.             |
 | `print()` (optional) | Converts the queue to an array for inspection/debugging. |
+
+---
+transition: slide-left
+---
+
+# Big O for Queues using Linked List
+
+| **Operation** | **Time Complexity** | **Explanation**                               |
+| ------------- | ------------------- | --------------------------------------------- |
+| `enqueue`     | O(1)                | Insert at the tail (requires `tail` pointer). |
+| `dequeue`     | O(1)                | Remove from the head.                         |
+| `peek`        | O(1)                | Access the head without removing it.          |
+| `isEmpty`     | O(1)                | Check if head is `null`.                      |
+| `size`        | O(1)\*              | Constant if a size counter is maintained.     |
+
+*If you don't maintain a size counter, size would be O(n).
+
 
 ---
 transition: slide-left
