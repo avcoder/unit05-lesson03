@@ -95,6 +95,19 @@ function binarySearch(arr, n, left = 0, right = arr.length - 1) {
 
 ---
 transition: slide-left
+---
+
+# Big O for Binary Search
+
+| **Aspect**              | **Sorted Array or Tree**          |
+| ----------------------- | ------------------------- |
+| **Best Case**           | O(1)                      |
+| **Average Case**        | O(log n)                  |
+| **Worst Case**          | O(log n)                  |
+
+
+---
+transition: slide-left
 layout: center
 ---
 
