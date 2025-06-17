@@ -631,8 +631,24 @@ class Queue {
 transition: slide-left
 ---
 
+# Career Coach Update
+
+- Karin, our lead career coach is no longer with Circuit Stream.  New coach starting July 2.
+   - Coach Cherrie is still here, taking students as usual, and none of her students are affected.
+   - Yesterday and tomorrow, we are combining the career labs to the later time with Cherrie. This is communicated on the career LMS to students
+   - Software Pitch Day is going ahead for July 10, and our dry run is June 19 on the platform called LiveStorm. Students pitching in the event have received instructions for how to access as a guest speaker, and I will soon share the attendee link for everyone to watch (and we encourage you to do so)
+   - Career 1:1s that were booked with Karin have been canceled through the end of June, however pitch day participants are encouraged to book with me to practice their pitches. They will receive booking info when the new career coach is taking appointments
+   - Students are required to do their career assignments as usual, and attend career labs as usual. We will be more lenient on deadlines on a case by case basis to ensure this disruption doesn't cause any undue stress.
+
+---
+transition: slide-left
+---
+
 # Homework
 
 - Khan Academy: https://www.khanacademy.org/computing/computer-science/algorithms
 - Leetcode Queues: https://leetcode.com/problem-list/queue/
 - Leetcode Stacks: https://leetcode.com/problem-list/stack/
+
+## Reminder
+You have Career Live Session tmrw Jun 18
