@@ -365,6 +365,7 @@ transition: slide-left
 ---
 
 # Exercise: Let's build out a Stack using Linked List
+see [Visualization](https://www.cs.usfca.edu/~galles/visualization/StackLL.html)
 
 ```js
 class Node {
@@ -543,6 +544,7 @@ transition: slide-left
 ---
 
 # Exercise: Build out a Queue using a Linked List
+see [Visualization](https://www.cs.usfca.edu/~galles/visualization/QueueLL.html)
 
 ```js
 class Node {
