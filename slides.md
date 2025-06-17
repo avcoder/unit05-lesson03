@@ -616,5 +616,6 @@ transition: slide-left
 
 # Homework
 
+- Khan Academy: https://www.khanacademy.org/computing/computer-science/algorithms
 - Leetcode Queues: https://leetcode.com/problem-list/queue/
 - Leetcode Stacks: https://leetcode.com/problem-list/stack/
