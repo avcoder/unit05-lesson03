@@ -99,13 +99,12 @@ transition: slide-left
 
 # Big O for Binary Search
 
-| **Aspect**              | **Sorted Array or Tree***          |
+| **Aspect**              | **Sorted Array or [Tree](https://www.enjoyalgorithms.com/static/sorted-array-to-balanced-bst-9475114a48f6ab0a466a3dbdc8da0343.png)**          |
 | ----------------------- | ------------------------- |
 | **Best Case**           | O(1)                      |
 | **Average Case**        | O(log n)                  |
 | **Worst Case**          | O(log n)                  |
 
-*see [Tree](https://www.enjoyalgorithms.com/static/sorted-array-to-balanced-bst-9475114a48f6ab0a466a3dbdc8da0343.png)
 
 ---
 transition: slide-left
