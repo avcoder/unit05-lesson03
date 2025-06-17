@@ -105,18 +105,24 @@ ex: more performant not to re-calculate fibonnaci(5) repeatedly if previously ca
 ---
 transition: slide-left
 layout: center
+class: text-center
 ---
 
 # What is a Cache?
-A cache is a storage layer that temporarily holds data to serve future requests faster.
+A cache is a storage layer that temporarily holds data to serve future requests faster.  
+
+ex: saving data to an object/array
 
 ---
 transition: slide-left
 layout: center
+class: text-center
 ---
 
 # What is a Memoization?
 A specific kind of caching used in functions to store results of expensive computations.
+
+It's caching a function's input (key) with its result (value)
 
 ---
 transition: slide-left
